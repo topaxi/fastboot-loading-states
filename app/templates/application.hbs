@@ -1,5 +1,5 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+{{#liquid-bind thing.value use="crossFade" as |value|}}
+  {{value}}
+{{/liquid-bind}}
 
-{{outlet}}
+{{liquid-outlet}}
